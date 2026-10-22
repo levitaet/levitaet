@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">Sofía Araya Vallejos</title>
+  <desc id="desc">Computer Science Engineering student at Universidad de Chile. Interested in theory of computation, 3D geometry and research.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2d30"/>
+      <stop offset="1" stop-color="#434a52"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect width="1000" height="300" rx="18"/>
+    </clipPath>
+    <clipPath id="typed">
+      <rect x="60" y="190" width="0" height="40">
+        <animate attributeName="width" values="0.0;14.4;28.8;43.2;57.6;72.0;86.4;100.8;115.2;129.6;144.0;158.4;172.8;187.2;201.6;216.0;230.4;244.8;259.2;273.6;288.0;302.4;316.8;331.2;345.6;360.0;374.4;388.8;403.2;417.6;432.0;446.4;460.8;475.2;489.6;504.0;518.4;532.8;547.2;561.6;576.0;590.4;604.8;619.2;633.6;648.0;662.4;676.8;691.2;705.6;720.0;734.4;748.8;763.2;777.6;792.0;806.4;820.8;835.2;849.6;864.0;878.4" keyTimes="0;0.0164;0.0328;0.0492;0.0656;0.082;0.0984;0.1148;0.1311;0.1475;0.1639;0.1803;0.1967;0.2131;0.2295;0.2459;0.2623;0.2787;0.2951;0.3115;0.3279;0.3443;0.3607;0.377;0.3934;0.4098;0.4262;0.4426;0.459;0.4754;0.4918;0.5082;0.5246;0.541;0.5574;0.5738;0.5902;0.6066;0.623;0.6393;0.6557;0.6721;0.6885;0.7049;0.7213;0.7377;0.7541;0.7705;0.7869;0.8033;0.8197;0.8361;0.8525;0.8689;0.8852;0.9016;0.918;0.9344;0.9508;0.9672;0.9836;1" calcMode="discrete" dur="3.2s" begin="0.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <g id="flower">
+      <ellipse cx="0" cy="-10" rx="5.5" ry="9"/>
+      <ellipse cx="0" cy="-10" rx="5.5" ry="9" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-10" rx="5.5" ry="9" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-10" rx="5.5" ry="9" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-10" rx="5.5" ry="9" transform="rotate(288)"/>
+      <circle r="5" fill="#f4c95d"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="300" fill="url(#sky)"/>
+
+    <path d="M0 215 C 160 165, 300 205, 470 170 S 800 150, 1000 190 V300 H0Z" fill="#4a5a48" opacity="0.55"/>
+    <path d="M0 250 C 200 215, 380 255, 560 228 S 860 215, 1000 245 V300 H0Z" fill="#3a4a3a" opacity="0.8"/>
+    <path d="M0 280 C 250 262, 520 290, 760 272 S 940 268, 1000 276 V300 H0Z" fill="#2f3b2f"/>
+
+    <g fill="#f2a7b8">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="830 70;830 60;830 70" dur="6s" repeatCount="indefinite"/>
+        <use href="#flower" transform="scale(1.5)"/>
+      </g>
+    </g>
+    <g fill="#fff6e5">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="900 130;900 120;900 130" dur="7.5s" repeatCount="indefinite"/>
+        <use href="#flower"/>
+      </g>
+    </g>
+    <g fill="#ff9a8f">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="760 140;760 132;760 140" dur="5s" repeatCount="indefinite"/>
+        <use href="#flower" transform="scale(0.8)"/>
+      </g>
+    </g>
+    <g fill="#f4c95d">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="940 50;940 43;940 50" dur="8s" repeatCount="indefinite"/>
+        <use href="#flower" transform="scale(0.7)"/>
+      </g>
+    </g>
+
+    <text x="60" y="110" fill="#ffffff" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="54" font-weight="700" letter-spacing="0.5">Sofía Araya Vallejos</text>
+    <text x="60" y="150" fill="#c9ced6" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="21">Computer Science Engineering student · Universidad de Chile</text>
+
+    <g clip-path="url(#typed)">
+      <text x="60" y="216" fill="#ff9a8f" font-family="'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="24" textLength="878.4" lengthAdjust="spacing">interested in: theory of computation · 3D geometry · research</text>
+    </g>
+    <rect x="62" y="195" width="3" height="28" fill="#ff9a8f">
+      <animate attributeName="x" values="62.0;76.4;90.8;105.2;119.6;134.0;148.4;162.8;177.2;191.6;206.0;220.4;234.8;249.2;263.6;278.0;292.4;306.8;321.2;335.6;350.0;364.4;378.8;393.2;407.6;422.0;436.4;450.8;465.2;479.6;494.0;508.4;522.8;537.2;551.6;566.0;580.4;594.8;609.2;623.6;638.0;652.4;666.8;681.2;695.6;710.0;724.4;738.8;753.2;767.6;782.0;796.4;810.8;825.2;839.6;854.0;868.4;882.8;897.2;911.6;926.0;940.4" keyTimes="0;0.0164;0.0328;0.0492;0.0656;0.082;0.0984;0.1148;0.1311;0.1475;0.1639;0.1803;0.1967;0.2131;0.2295;0.2459;0.2623;0.2787;0.2951;0.3115;0.3279;0.3443;0.3607;0.377;0.3934;0.4098;0.4262;0.4426;0.459;0.4754;0.4918;0.5082;0.5246;0.541;0.5574;0.5738;0.5902;0.6066;0.623;0.6393;0.6557;0.6721;0.6885;0.7049;0.7213;0.7377;0.7541;0.7705;0.7869;0.8033;0.8197;0.8361;0.8525;0.8689;0.8852;0.9016;0.918;0.9344;0.9508;0.9672;0.9836;1" calcMode="discrete" dur="3.2s" begin="0.5s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
