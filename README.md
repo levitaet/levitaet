@@ -13,7 +13,7 @@
 
 ## 🌼 Hi, I'm Sofía
 
-I'm a Computer Science Engineering student at **Universidad de Chile** (expected 2027), recognized as Outstanding Student in 2024 and 2025. I like the place where mathematics meets computing, and I'm looking to get into research.
+I'm a Computer Science Engineering student at **Universidad de Chile** (expected 2027). I like the place where mathematics meets computing, and I'm looking to get into research.
 
 ## 🔭 What I'm exploring
 
