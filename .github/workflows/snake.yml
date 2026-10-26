@@ -15,12 +15,27 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: Platane/snk/svg-only@v3
+      - id: generate_snake
+        uses: Platane/snk/svg-only@v3
+        continue-on-error: true
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg?color_snake=%23b04a43
             dist/github-snake-dark.svg?palette=github-dark&color_snake=%23ff9a8f
+
+      - id: generate_snake_retry
+        if: steps.generate_snake.outcome == 'failure'
+        uses: Platane/snk/svg-only@v3
+        continue-on-error: true
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=%23b04a43
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%23ff9a8f
+
+      - if: steps.generate_snake.outcome == 'failure' && steps.generate_snake_retry.outcome == 'failure'
+        run: exit 1
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
