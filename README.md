@@ -33,7 +33,7 @@ Research assistantships, thesis projects and collaborations with academic groups
 - **[DashAI](https://www.dash-ai.com/)**: rebuilt the app's asynchronous job queue across a Python backend and a React frontend (Huey, Pickle → Dill serialization, FastAPI).
 - **Security scan automation at Accenture**: reverse-engineered an undocumented API to automate scans, cutting the monthly effort from up to 12 hours to 1–2.
 - **ETL pipelines at Cybertrust Latam**: Python and pandas on large tables, plus SAP role-inheritance graph analysis.
-- **[sofiaa.cl](https://sofiaa.cl)**: my portfolio, a bilingual desktop-style site in React and TypeScript ([source](https://github.com/levitaet/levitaet.github.io)).
+- **[sofiaa.cl](https://sofiaa.cl)**: my portfolio, a bilingual desktop-style site in React and TypeScript.
 - Peer tutor in Differential and Integral Calculus since 2024.
 
 ## 🧰 Tools
